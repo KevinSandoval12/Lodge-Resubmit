@@ -1,0 +1,112 @@
+﻿/* FONT CODE */
+
+h1 {
+  font-family: serif;
+  padding-left: 30px;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+/* SPACING CODE */
+#notes {
+  border: 1px solid black;
+  border-radius: 5%;
+  width: 221.67px;
+  height: 227.83px;
+  background-color: #20a957;
+  /* padding-left: 10px; */
+  padding-right: 10px;
+}
+
+#notes h2 {
+  padding-left: 20px;
+}
+
+#events {
+  border: 1px solid black;
+  border-radius: 5%;
+  width: 221.67px;
+  height: 327px;
+  background-color: #6498d4;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#events p {
+  padding-left: 25px;
+}
+
+/* COLORS CODE */
+html body {
+  background-color: rgb(156, 194, 252);
+}
+#leftcol {
+  background-color: rgb(253, 255, 205);
+}
+
+#rightcol {
+  background-color: rgb(160, 109, 109);
+}
+
+#rightcol h2 {
+  color: white;
+  padding-left: 40px;
+}
+
+#rightcol ul {
+  list-style-type: none;
+  padding-left: 70px;
+}
+
+.first {
+  font-weight: bold;
+}
+
+nav {
+  padding: 5px;
+  background-color: rgb(60, 85, 142);
+}
+
+a {
+  color: white;
+}
+
+blockquote {
+  color: white;
+}
+
+footer {
+  background-color: rgb(60, 85, 142);
+  color: white;
+  font-size: larger;
+}
+
+footer {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* LISTS AND LINKS CODE */
+a:link {
+  text-decoration: none;
+}
+
+section {
+  height: 1000px;
+}
+
+h1 ~ img {
+  padding-left: 25px;
+}
+
+p {
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+#notes a {
+  text-decoration: underline;
+}
